@@ -66,3 +66,5 @@
 | 28  | Quiz submit answer method mismatch       | Naman         | Naman        |
 | 29  | Missing error handling in news.js        | Naman         | Naman        |
 | 30  | Users POST/GET method mismatch           | Naman         | Naman        |
+
+rep link: https://github.com/namanaggarwal76/ISS-lab12
