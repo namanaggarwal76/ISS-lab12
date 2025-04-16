@@ -1,4 +1,3 @@
-
 async function loadUsers() {
   const res = await fetch(`/users`);
   const users = await res.json();
@@ -40,7 +39,7 @@ document.getElementById("search").addEventListener("input", async (e) => {
     const deleteBtn = document.createElement("button");
     deleteBtn.textContent = "Delete";
     deleteBtn.onclick = async () => {
-      await fetch(`/users/${user._id}`, { method: "PATCH" });
+      await fetch(`${baseURL}/users/${user._id}`, { method: "DELETE" });
       loadUsers();
     };
 

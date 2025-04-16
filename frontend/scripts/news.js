@@ -58,7 +58,9 @@ async function loadNews(searchTerm = "", source = "all", reset = false) {
     });
     
   } catch (err) {
-    list.innerHTML += `<p style="color: red;">Error: ${err.message}</p>`;
+    console.error("News loading error:", err);
+    list.innerHTML += `<p style="color: red;">Error loading news: ${err.message}</p>`;
+    document.getElementById("articleCount").textContent = `Error loading articles`;
   } finally {
     loading.style.display = "none";
   }

@@ -32,33 +32,33 @@
 
 | ID  | Issue Description                        | Identified By | Fixed By     |
 |-----|------------------------------------------|---------------|--------------|
-| 1   | Style.css is not filled                                    |         Narain |     Whole Team     |
-| 2   |                                          |               |              |
-| 3   |                                          |               |              |
-| 4   |                                          |               |              |
-| 5   |                                          |               |              |
-| 6   |                                          |               |              |
-| 7   |                                          |               |              |
-| 8   |                                          |               |              |
-| 9   |                                          |               |              |
-| 10  |                                          |               |              |
-| 11  |                                          |               |              |
-| 12  |                                          |               |              |
-| 13  |                                          |               |              |
-| 14  |                                          |               |              |
-| 15  |                                          |               |              |
-| 16  |                                          |               |              |
-| 17  |                                          |               |              |
-| 18  |                                          |               |              |
-| 19  |                                          |               |              |
-| 20  |                                          |               |              |
-| 21  |                                          |               |              |
-| 22  |                                          |               |              |
-| 23  |                                          |               |              |
-| 24  |                                          |               |              |
-| 25  |                                          |               |              |
-| 26  |                                          |               |              |
-| 27  |                                          |               |              |
-| 28  |                                          |               |              |
-| 29  |                                          |               |              |
-| 30  |                                          |               |              |
+| 1   | Style.css is not filled                  | Narain        | Whole Team   |
+| 2   | Incorrect script path in profile page    | Arnav         | Arnav        |
+| 3   | Missing container in items page          | Arnav         | Arnav        |
+| 4   | Undefined baseURL in profile.js          | Arnav         | Arnav        |
+| 5   | Inconsistent API paths in profile.js     | Arnav         | Arnav        |
+| 6   | Incorrect content-type in items.js       | Kausheya      | Kausheya     |
+| 7   | News search not implemented              | Kausheya      | Kausheya     |
+| 8   | Source filter not implemented in news    | Kausheya      | Kausheya     |
+| 9   | Quiz.js always returns same question     | Kausheya      | Kausheya     |
+| 10  | Missing navigation in analytics page     | Kausheya      | Kausheya     |
+| 11  | Duplicate POST route in users API        | Rakshit       | Rakshit      |
+| 12  | Incorrect delete method in users API     | Rakshit       | Rakshit      |
+| 13  | Improperly initialized router in items API | Rakshit     | Rakshit      |
+| 14  | Duplicate item creation route            | Rakshit       | Rakshit      |
+| 15  | Incorrect HTTP method in quiz answer API | Rakshit       | Rakshit      |
+| 16  | Item model missing BaseModel             | Manav         | Manav        |
+| 17  | Incorrect type for item name             | Manav         | Manav        |
+| 18  | Missing users router in main app         | Manav         | Manav        |
+| 19  | Hardcoded user array in analytics API    | Manav         | Manav        |
+| 20  | Incorrect field names in analytics API   | Manav         | Manav        |
+| 21  | Missing plot image in analytics response | Naman         | Naman        |
+| 22  | Incorrect method in delete item function | Naman         | Naman        |
+| 23  | Wrong router method in profile.js        | Naman         | Naman        |
+| 24  | Extra parameter in delete item route     | Naman         | Naman        |
+| 25  | Port mismatch in analytics API           | Naman         | Naman        |
+| 26  | Missing router prefix for analytics      | Naman         | Naman        |
+| 27  | Incorrect form data in profile.html      | Naman         | Naman        |
+| 28  | Quiz submit answer method mismatch       | Naman         | Naman        |
+| 29  | Missing error handling in news.js        | Naman         | Naman        |
+| 30  | Users POST/GET method mismatch           | Naman         | Naman        |
