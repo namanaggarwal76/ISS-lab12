@@ -40,8 +40,8 @@ questions = [
 game_state = {"high_score": 0}
 # god would hate me for not dockerizing this repo
 @router.get("/question")
-async def get_question():
-    question = questions[1]
+async def get_question():   # Quiz.js used to always return same Question
+    question = random.choice(questions)
     return {
         "id": question["id"],
         "text": question["text"],
