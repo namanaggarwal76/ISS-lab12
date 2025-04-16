@@ -66,3 +66,13 @@ async function loadNews(searchTerm = "", source = "all", reset = false) {
 
 
 loadNews();
+
+// News Search Not Implemented
+document.getElementById("search").addEventListener("input", (e) => {
+  loadNews(e.target.value, document.getElementById("source").value, true);
+});
+
+// Source Filter Not Implemented in News
+document.getElementById("source").addEventListener("change", (e) => {
+  loadNews(document.getElementById("search").value, e.target.value, true);
+});
