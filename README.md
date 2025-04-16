@@ -26,7 +26,11 @@
 
 ### Add the names of the members and roll numbers of your team below
 
-- Name : Roll Number
+- Arnav Agnihotri: 2024101103
+  Naman Aggarwal: 2024101018
+  Manav Beriwal: 2024101105
+  Rakshit Aggarwal: 2024101087
+  Kausheya Roy: 2024101085   
 
 ### Table to keep track
 
